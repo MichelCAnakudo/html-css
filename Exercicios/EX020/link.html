@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        a {
+            color: rgb(2, 255, 48);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blueviolet;
+
+        }
+
+        a:hover {
+            color: deeppink;
+            text-decoration: underline;
+
+        }
+
+
+
+
+        a::before {
+            content:'⇒';
+            text-decoration: none;
+            color: rgb(152, 134, 134);
+        }
+         
+        a::after{
+            content:'[link]';
+            text-decoration: none;
+            color: rgb(152, 134, 134);
+        }
+        h1{
+padding: 10px;
+background-color: aqua;
+margin: 100px;
+outline: 30px;
+outline-color: greenyellow;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+
+    <ul>
+
+        <li><a href="https://www.facebook.com/">Meu Facebook</a></li>
+        <li><a href="https://www.instagram.com/">Meu Instagran</a></li>
+
+
+    </ul>
+
+
+
+
+</body>
+
+</html>
